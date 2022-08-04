@@ -161,3 +161,37 @@ li{
     height: 405px;
     margin-bottom: 50px;
 }
+
+/*faculty*/
+#faculty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #60117c; 
+}
+#faculty h1{
+    margin-top: 50px;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #fff;
+    
+}
+.card-box{
+    padding-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 5px 5px;
+    width: 300px;
+    border-radius: 50px;
+    color: #414141;
+}
